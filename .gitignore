@@ -1,0 +1,46 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+frontEnd/dist
+frontEnd/tmp
+frontEnd/out-tsc
+# Only exists if Bazel was run
+frontEnd/bazel-out
+
+# dependencies
+frontEnd/node_modules
+
+# profiling files
+frontEnd/chrome-profiler-events*.json
+frontEnd/speed-measure-plugin*.json
+
+# IDEs and editors
+frontEnd/.idea
+frontEnd/.project
+fronEnd/.classpath
+fronEnd/.c9/
+fronEnd/*.launch
+fronEnd/.settings/
+fronEnd/*.sublime-workspace
+
+# IDE - VSCode
+frontEnd/.vscode/*
+frontEnd/!.vscode/settings.json
+frontEnd/!.vscode/tasks.json
+frontEnd/!.vscode/launch.json
+frontEnd/!.vscode/extensions.json
+frontEnd/.history/*
+
+# misc
+frontEnd/.sass-cache
+frontEnd/connect.lock
+frontEnd/coverage
+frontEnd/libpeerconnection.log
+frontEnd/npm-debug.log
+frontEnd/yarn-error.log
+frontEnd/testem.log
+frontEnd/typings
+
+# System Files
+frontEnd/.DS_Store
+frontEnd/Thumbs.db
